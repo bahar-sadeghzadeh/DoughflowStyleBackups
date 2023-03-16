@@ -1,0 +1,1469 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* TEST CHANGES AFTER THIS LINE */\
+#stickyribbon \{\
+  box-shadow: unset !important;\
+\}\
+\
+:root \{\
+  --white: #ffffff;\
+  --light-gray: #f6f6f6;\
+  --gray: #d6dadb;\
+  --dark-gray: #9b9b9b;\
+  --gray-border: #eee;\
+  --black-text: rgba(0, 0, 0, 0.8);\
+  --info-text: #333333;\
+  --info-text-hover: #000;\
+  --black: #0e0e0e;\
+  --coral: #ff444f;\
+  --coral-hover: #d43e47;\
+  --teal: #85acb0;\
+  --coral-transparent: #ff444f0d;\
+  --dark-red: #cc2e3d;\
+  --error: #e53935;\
+  --orange: #ff6444;\
+  --red: #ec3f3f;\
+  --green: #4bb4b3;\
+  --light-blue: #00bfff;\
+  --aqua-blue: #2488d4;\
+  --formrow-start-gap: 0;\
+  --formrow-start-gap: 0;\
+  --main-max-width: 650px;\
+  --custom-body-bg: #ffffff;\
+\}\
+\
+:where(html.dark):root \{\
+  --info-text: #fff;\
+  --info-text-hover: #fff;\
+  --gray-border: #828282;\
+  --light-gray: #212121;\
+  --black-text: #fff;\
+  --custom-body-bg: #0e0e0e;\
+\}\
+\
+.errorarea a:link,\
+.panicmsgarea a:link,\
+.warningarea a:link,\
+.warningareasmall a:link \{\
+  color: var(--coral);\
+\}\
+\
+/* general */\
+#AmountFormRow:before \{\
+  content: "Amount:";\
+  color: var(--dark-gray);\
+  font-size: 12px;\
+  width: 100%;\
+\}\
+\
+label#dynamicAmtLabel \{\
+  display: none;\
+\}\
+\
+form .formrow label:after \{\
+  content: ":";\
+\}\
+\
+#FXdisplay:before \{\
+	content: "Amount:";\
+  color: var(--dark-gray);\
+  font-size: 12px;\
+  width: 100%;\
+\}\
+\
+#FXdisplay label \{\
+	display: none;\
+\}\
+\
+#FXdisplay \{\
+	width: 275px;\
+    margin: 0 auto 24px;\
+\}\
+\
+body,\
+html \{\
+  background-color: var(--custom-body-bg);\
+  overflow-x: hidden;\
+\}\
+\
+* \{\
+  font-family: Roboto, sans-serif;\
+\}\
+\
+header \{\
+  background-color: unset;\
+\}\
+.spinner svg,\
+input#CVV ~ .webapphidden,\
+#SubmitBtn .fa-lock,\
+.errorarea .smalltext div:nth-child(even),\
+.warningarea .smalltext div:nth-child(even):not(.infomsgsmall),\
+html[data-action="DEPOSITS.ASP"] .freetextarea,\
+form[action="./PayoutReview.asp"] .formheader,\
+form[action="./PayoutRequest.asp#"]\
+  .formarea\
+  .formsection\
+  .formrow:nth-child(3),\
+form[action="./PayoutRequest.asp#"]\
+  .formarea\
+  .formsection\
+  .formrow:nth-child(4),\
+form[action="./PayoutRequest.asp#"] .formarea .formsection .formheader,\
+form[action^="./PayoutDetails.asp"] .formheader,\
+form[action^="./PayoutDetails.asp"] .formrow.centertext,\
+form[action^="./PayoutDetails.asp"] .formelement.fineprint,\
+.formsection .formheader,\
+.formarea .mobilehidden,\
+#payoutbanner #payoutfiltertexttitle,\
+#payoutbanner .normaltext.mobilehidden,\
+#payoutbanner a,\
+#depositbanner,\
+.paymentmethodarea .learnmore,\
+hr.freetextarealine,\
+.freetextarea,\
+.trustmarks,\
+.freetextarea.copyright,\
+.paymentimgborder + div,\
+#contextmenu,\
+a[href="javascript:print()"],\
+.paymentmethodarea:is(#PayoutOptionCFT) .bigtext,\
+.paymentmethodarea:is(#PayoutOptionCFT) .payoutdetails,\
+.paymentmethodarea:is(#PayoutOptionadvcash) .bigtext,\
+.paymentmethodarea:is(#PayoutOptionadvcash) .payoutdetails,\
+.recentpaymentmethodarea \{\
+  display: none;\
+\}\
+\
+a,\
+a:visited,\
+a:link \{\
+  color: var(--coral);\
+\}\
+\
+a:not(.menubutton):not(.simplebutton):hover \{\
+  text-decoration: underline;\
+\}\
+\
+a.showloader,\
+a.showloader .fa-fw \{\
+  width: 100%;\
+\}\
+\
+/* Remove default payout search icon */\
+\
+a[href^="PayoutReview.asp"] .fa.fa-search:before \{\
+  content: "";\
+\}\
+\
+#AmountDisplay \{\
+  font-size: 16px;\
+\}\
+\
+.amountholder.totalamount .currencySymbol \{\
+  margin-right: 5px;\
+  font-size: unset;\
+  vertical-align: unset;\
+  padding-inline-end: unset;\
+\}\
+\
+#amountTooltip input \{\
+  font-weight: bold;\
+  font-size: 20px !important;\
+  width: 8em !important;\
+  text-align: center;\
+\}\
+\
+#amountTooltip input::placeholder \{\
+  color: #f2f3f4;\
+\}\
+\
+#cmBalance .longformelement.bolded \{\
+  font-weight: unset;\
+\}\
+\
+#cmPayoutMethod \{\
+  margin: -7px 0;\
+\}\
+\
+#cmPayoutMethod .longformelement span \{\
+  visibility: hidden;\
+\}\
+\
+#cmPayoutMethod .longformelement span .spritepp \{\
+  visibility: visible;\
+\}\
+\
+#cmPayoutMethod .longformelement .spritepp \{\
+  position: absolute;\
+\}\
+\
+#cmPaymentMethod \{\
+  position: relative;\
+\}\
+\
+#cmPaymentMethod .altSkrill \{\
+  top: -5px;\
+\}\
+\
+#Comments \{\
+  padding: 0 5px;\
+	line-height: 34px;\
+\}\
+\
+.CSCtip \{\
+  position: relative;\
+  left: 17px;\
+  top: 3px;\
+  transform: translateX(-50%);\
+\}\
+\
+.doubleup \{\
+  display: flex;\
+  width: 275px;\
+  margin: 0 auto;\
+\}\
+\
+.doubleup > .formrow \{\
+  flex-direction: initial;\
+\}\
+\
+.doubleup .formrow * \{\
+  width: auto !important;\
+\}\
+\
+.doubleup .formrow:first-child \{\
+  margin-right: 14px;\
+\}\
+\
+form[action="./PayoutRequest.asp#"] .formsection .amountholder \{\
+  font-size: 20px;\
+  line-height: 30px;\
+  width: auto;\
+  font-weight: bold;\
+\}\
+\
+form .formrow \{\
+  flex-direction: column;\
+  align-items: center;\
+  width: 275px;\
+  margin: 0 auto 24px;\
+\}\
+\
+\
+form[action="./PayoutRequest.asp#"] .formrow label:after \{\
+  content: "";\
+\}\
+\
+.formsection \{\
+  box-shadow: none;\
+  margin: 0 auto;\
+\}\
+/*\
+form[action="./PayoutRequest.asp#"] .formsection \{\
+  padding: 24px 43px;\
+\}\
+*/\
+.fineprint a \{\
+  color: var(--aqua-blue) !important;\
+  text-decoration: underline;\
+\}\
+\
+input#CVV \{\
+  border: none;\
+  border-bottom: 1px solid var(--gray);\
+\}\
+\
+.labelelement a[href^="PayoutReview.asp"] \{\
+  color: var(--dark-gray);\
+  pointer-events: none;\
+\}\
+\
+.minilimitstext \{\
+  color: var(--dark-gray) !important;\
+  font-variant: none;\
+\}\
+\
+.noticemsgsmall \{\
+  color: var(--dark-red);\
+  background-color: transparent;\
+\}\
+\
+.paymentimgborder \{\
+  border-radius: 100%;\
+  width: 75px;\
+  height: 75px;\
+  border: 6px solid whitesmoke;\
+  display: flex;\
+  justify-content: center;\
+  align-items: center;\
+  margin: 0 auto;\
+  padding: 5px;\
+\}\
+\
+.paymentmethodarea .bigtext:hover \{\
+  color: var(--info-text-hover);\
+\}\
+\
+.payouttimeframe \{\
+  display: none;\
+\}\
+\
+.pwrdbytext \{\
+  font-size: 0.85em;\
+\}\
+\
+/* Custom payout search icon */\
+\
+span.valueelement a[href^="PayoutReview.asp"] \{\
+  display: inline-block;\
+  height: 32px;\
+  width: 16px;\
+  line-height: 32px;\
+  padding-left: 12px;\
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGYSURBVHgBlVRRTsJAEJ3ZthriD94Ab8CHQj9JvICeAD0B+qdCQkngG25gPYIXQD6RL46gJ4APFQPbXWdK17SlxTrJbqc7M2/fvN0Wa/fyAix4RIAy7DEN6M36Vi+9LlDA8K9iNgTt1TpBd2e93pGande+jXnFbnvjacRuFhMBBWw6cDzUupfFpBDAPpDCAHkgdlYi9dzgnkmcaiTwRGvwZwP7iUEoDhxnkB0GLqFS8IXcRux0GojgG9oMYvITAGcP6ytNqCFFolr6sI55CK1uDe1TYhevSbQghGiGDhVMBwejWGhEtMtM29oe5ySTAVPlqfTp+Kl1+HZsA1hNbBp/IdGW8E9LAJBoc35+HcmbdOKhVM3IncfXExqwcNQnKY7denu9LDmOHwJK1YJIXNLn2fVIahnsMqDjmZiLAiiGKxkseKAp3pa0qNeTzBYiEA+Vuga+PKRJpAv7l1T4Rn1WaPfxL+siX6Mx925V0ZYzJpB8BnlGG6G2nXcMNuchE8Og1pGLIj+UTCMgIRRd0xhibmpq0LRAoXo/GePA56Dp29UAAAAASUVORK5CYII=)\
+    no-repeat;\
+  background-size: contain;\
+  background-position: center;\
+\}\
+\
+#timerCount \{\
+  visibility: hidden;\
+\}\
+\
+.totalamount \{\
+  font-weight: bold;\
+  border-top: unset;\
+\}\
+\
+.webapphidden > a:hover \{\
+  text-decoration: none !important;\
+\}\
+\
+/* Back button */\
+\
+#nav-backbtn .menubutton \{\
+  box-shadow: none;\
+  padding-right: 4px;\
+  background: none;\
+  color: var(--coral);\
+  border: none;\
+  padding-top: 9px;\
+  font-weight: bold;\
+  height: 33px;\
+  content: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23979797' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M8 1L1 8l7 7M1 8h14'/%3E%3C/g%3E%3Cpath fill='%23333' d='M3.414 7H15a1 1 0 0 1 0 2H3.414l5.293 5.293a1 1 0 0 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 1 1 1.414 1.414L3.414 7z'/%3E%3C/g%3E%3C/svg%3E");\
+\}\
+\
+/* Error area */\
+\
+.errorarea,\
+.warningarea \{\
+  color: var(--error) !important;\
+  background-color: transparent !important;\
+  border-style: solid !important;\
+  border-color: var(--error) !important;\
+  border-radius: 4px !important;\
+  border-width: 2px !important;\
+\}\
+\
+.errorarea .smalltext,\
+.warningarea .smalltext \{\
+  font-size: 14px;\
+  line-height: 20px;\
+  letter-spacing: 0;\
+\}\
+\
+.errorarea .smalltext div,\
+.warningarea .smalltext div \{\
+  margin-bottom: 8px;\
+\}\
+\
+.errorarea .normaltext \{\
+  color: var(--black-text);\
+\}\
+\
+.errorarea .smalltext div:last-child,\
+.warningarea .smalltext div:last-child \{\
+  margin-bottom: 0;\
+\}\
+\
+.errorarea .smalltext strong,\
+.warningarea .smalltext strong \{\
+  font-size: 16px;\
+  color: var(----error);\
+\}\
+\
+.errorarea ul,\
+.warningarea ul \{\
+  margin-left: 7px;\
+  font-weight: bold;\
+\}\
+\
+.normaltext \{\
+  font-size: 14px;\
+  line-height: 1.4;\
+\}\
+\
+/* Payout details section */\
+\
+.paymentmethodarea .payoutdetails \{\
+  grid-row-start: 3;\
+  grid-column-start: 2;\
+  justify-content: left;\
+  color: var(--dark-gray);\
+  font-size: 12px;\
+\}\
+.paymentmethodarea .payoutdetails .payoutlimits \{\
+  display: flex;\
+  line-height: 14px;\
+\}\
+.paymentmethodarea .payoutdetails .payoutlimits-max \{\
+  display: flex;\
+  flex-direction: row-reverse;\
+\}\
+.paymentmethodarea .payoutdetails .payoutlimits-min span:after \{\
+  content: "-";\
+\}\
+.paymentmethodarea .payoutdetails .payoutlimits-min span:first-letter \{\
+  opacity: 0;\
+  margin-left: -10px;\
+\}\
+.paymentmethodarea .payoutdetails .payoutlimits-max span:first-letter \{\
+  opacity: 0;\
+  margin-left: -8px;\
+\}\
+\
+.smalltext \{\
+  font-size: 12px;\
+  line-height: 1.4;\
+\}\
+\
+a:focus,\
+button:focus \{\
+  box-shadow: none !important;\
+\}\
+\
+/* Form general */\
+\
+.formrow:not(.nowrapflex) \{\
+  -webkit-margin-before: 0;\
+  margin-block-start: 0;\
+\}\
+\
+form .formrow label,\
+form .formrow .formlabel \{\
+  font-size: 12px !important;\
+  text-align: left;\
+\}\
+\
+.formrow .shortformlabel \{\
+  width: 49%;\
+\}\
+\
+.formrow .formelement,\
+.formrow .labelelement \{\
+  width: 100% !important;\
+  color: var(--dark-gray);\
+\}\
+\
+.formrow .formelement \{\
+  justify-content: flex-start;\
+\}\
+\
+.formrow .longformelement \{\
+  position: relative;\
+\}\
+\
+.formrow .formelement .minilimits \{\
+  position: relative;\
+  transform: none;\
+  left: 5px;\
+  bottom: -10px;\
+\}\
+\
+.formrow .longformelement .spritepp \{\
+  visibility: visible;\
+\}\
+\
+#cmPaymentMethod .longformelement \{\
+  visibility: hidden;\
+\}\
+\
+#cmPaymentMethod .longformelement .spritepp \{\
+  top: 50%;\
+  transform: translateY(-50%);\
+  position: absolute;\
+\}\
+\
+/* jBox */\
+.jBox-Notice .jBox-container \{\
+  background-color: var(--light-gray) !important;\
+\}\
+\
+/* Deposit form */\
+\
+form[action$="Deposit.asp"] .formrow .formlabel,\
+form[action$="Deposit.asp"] .formsection label \{\
+  display: inline-block;\
+  text-align: left;\
+  width: 275px;\
+  margin: 0;\
+  padding: 0 !important;\
+  color: var(--dark-gray);\
+  position: relative;\
+  top: 2px;\
+  background: transparent !important;\
+\}\
+\
+form[action$="Deposit.asp"] .formelement .normaltext\{\
+	direction: rtl;\
+\}\
+\
+/* CC Deposit form */\
+\
+form[action="CC_Deposit.asp"] .formarea input#btnCustomListBox \{\
+  margin-left: 0;\
+  bottom: 2px;\
+  left: 0;\
+  font-size: 2rem;\
+  border-bottom: 1px solid var(--light-gray);\
+\}\
+\
+form[action="CC_Deposit.asp"] .formarea input#btnCustomListBox::hover \{\
+  border-bottom-color: var(--light-gray) !important;\
+\}\
+\
+form[action="CC_Deposit.asp"] .formarea input#cardnumber \{\
+  width: 236px;\
+  padding-inline-start: 5px !important;\
+  -webkit-padding-start: 5px !important;\
+  background: none !important;\
+\}\
+\
+/* Fix bug with arrow for credit card input field - deposit */\
+\
+form[action="/cashier/C_Deposit.asp"] .formrow.lefttext \{\
+  font-size: 12px;\
+\}\
+\
+form[action="CC_Deposit.asp"] .formarea .formrow .formelement \{\
+  position: relative;\
+\}\
+\
+/* Payout details form */\
+\
+form[action="./PayoutDetails.asp"]\
+  .formrow.nowrapflex:nth-child(2n)\
+  .amountholder \{\
+  visibility: hidden;\
+  position: absolute;\
+\}\
+\
+form[action="./PayoutDetails.asp"]\
+  .formrow.nowrapflex:nth-child(2n)\
+  .amountholder::before \{\
+  content: "Free!";\
+  visibility: visible;\
+  bottom: 3px;\
+  position: relative;\
+\}\
+\
+form[action="./PayoutDetails.asp"] .formrow.nowrapflex .webapphidden \{\
+  margin-left: 35px;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formsection:first-child \{\
+  margin-bottom: 0;\
+  padding-bottom: 0;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow > span.formelement \{\
+  margin-bottom: 16px;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow > .formlabel \{\
+  text-align: left;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow.lefttext.smalltext \{\
+  max-width: 320px;\
+  margin: 0 auto 25px auto;\
+  padding-left: 24px;\
+  line-height: 1.5;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formsection:last-child \{\
+  margin-top: 0;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .nowrapflex > .labelelement \{\
+  text-align: right;\
+  width: 94px !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"]\
+  .nowrapflex\
+  > .valueelement\
+  > .amountholder \{\
+  width: auto !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"]\
+  .nowrapflex\
+  > .valueelement\
+  > span[title="24 hours"] \{\
+  text-align: left !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .nowrapflex > .valueelement \{\
+  color: var(--black-text) !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow,\
+form[action^="./PayoutRequest.asp"] .formrow \{\
+  margin-bottom: 0;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow > label \{\
+  text-align: left;\
+  color: var(--dark-gray);\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea \{\
+  border-color: var(--gray);\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea:hover \{\
+  border-color: rgba(0, 0, 0, 0.45) !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea:focus \{\
+  border-color: rgba(0, 0, 0, 0.45) !important;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] .formrow > label[for="Comments"] \{\
+  margin-top: -11px;\
+\}\
+\
+form[action^="./PayoutDetails.asp"] span[title="24 hours"] \{\
+  font-size: 14px;\
+  width: 160px;\
+  display: inline-block;\
+  text-align: right;\
+\}\
+\
+/* Fix bug with arrow for credit card input field - withdraw */\
+\
+form[action="./PayoutDetails.asp"] .formarea .formrow .formelement \{\
+  position: relative;\
+\}\
+\
+form[action="./PayoutDetails.asp"] .formarea input#btnCustomListBox \{\
+  margin-left: 0;\
+  bottom: 3px;\
+  left: 0;\
+  font-size: 2rem;\
+  border-bottom: 1px solid var(--light-gray);\
+\}\
+\
+form[action="./PayoutDetails.asp"] .formarea input#btnCustomListBox::hover \{\
+  border-bottom-color: var(--light-gray) !important;\
+\}\
+\
+form[action="./PayoutDetails.asp"] .formarea input#cardnumber \{\
+  width: 236px;\
+  padding-inline-start: 0 !important;\
+  -webkit-padding-start: 0 !important;\
+\}\
+\
+/* Help button */\
+\
+.help \{\
+  display: inline;\
+  background: none;\
+  border: none;\
+  font-weight: bold;\
+\}\
+\
+.help:hover \{\
+  background-color: transparent;\
+  text-decoration: none;\
+  color: var(--coral);\
+\}\
+\
+/* INPUTS */\
+input,\
+select \{\
+  padding-left: 5px !important;\
+  border: none !important;\
+  border-bottom: 1px solid var(--gray) !important;\
+  border-radius: 0 !important;\
+\}\
+input:not([type="submit"]):not([type="button"]),\
+select \{\
+  border-color: var(--gray);\
+  background-color: transparent !important;\
+\}\
+input::placeholder,\
+textarea::placeholder \{\
+  color: var(--dark-gray);\
+\}\
+input[type]:focus,\
+select:focus \{\
+  border-color: var(--teal) !important;\
+\}\
+input[type]:focus,\
+select:focus \{\
+  box-shadow: none;\
+  caret-color: var(--teal);\
+\}\
+input#cardnumber,\
+input#CVV,\
+input#password,\
+input[type="password"] \{\
+  background-image: none;\
+  background: var(--white) !important;\
+\}\
+#depositbanner .help,\
+#payoutbanner .help,\
+.help:hover,\
+.warningarea .help:hover,\
+.warningareasmall .help:hover \{\
+  color: var(--coral);\
+\}\
+input[type="email"],\
+input[type="number"],\
+input[type="password"],\
+input[type="tel"],\
+input[type="text"],\
+select \{\
+  height: 32px;\
+	line-height: 2em;\
+\}\
+\
+input#convertedamount \{\
+  font-size: 16px;\
+  flex: unset;\
+  min-width: 5em;\
+  padding-right: 0;\
+\}\
+\
+input#chargeamount \{\
+  font-size: 16px;\
+  min-width: 5em;\
+  padding-right: 0;\
+  flex: unset;\
+\}\
+\
+/*\
+select#CurrencyCode \{\
+  max-width: 6em;\
+\}\
+*/\
+\
+/* Marquee */\
+\
+ul.marquee \{\
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 16%);\
+  margin: 10px 0;\
+  background: none;\
+\}\
+\
+ul.marquee:hover \{\
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 16%);\
+  background: none;\
+\}\
+\
+ul.marquee li \{\
+  color: var(--black-text);\
+  font-weight: bold;\
+\}\
+\
+ul.marquee:hover li \{\
+  color: color var(--black-text);\
+\}\
+\
+/* Messages */\
+\
+.infomsg,\
+.errorarea,\
+.warningarea,\
+.noticemsgsmall,\
+.infomsgsmall,\
+.panicmsgarea \{\
+  border: none;\
+  border-radius: 4px;\
+  font-size: 14px;\
+  padding: 16px;\
+  padding-left: 56px;\
+  display: flex;\
+  flex-direction: column;\
+  align-items: flex-start;\
+  margin: 10px auto;\
+\}\
+\
+.infomsg .bigtext,\
+.errorarea .bigtext,\
+.warningarea .bigtext \{\
+  font-size: 16px;\
+  margin-bottom: 8px;\
+\}\
+\
+.infomsg:before,\
+.errorarea:before,\
+.warningarea:before,\
+.noticemsgsmall:before,\
+.infomsgsmall:before,\
+.panicmsgarea:before \{\
+  font-size: 16px;\
+  display: inline-block;\
+  position: absolute;\
+  left: 24px;\
+  animation: none;\
+\}\
+\
+.infomsgsmall:before \{\
+  padding: 10px 0;\
+\}\
+\
+.errorarea:before \{\
+  margin-top: 2px;\
+\}\
+\
+.navbar \{\
+  position: unset;\
+  transform: unset !important;\
+\}\
+.navbar,\
+.formsection,\
+.paymentmethodarea \{\
+  background-color: unset;\
+  backdrop-filter: unset;\
+\}\
+\
+/* Deposit payment method details */\
+\
+#depositoptions .paymentmethodarea \{\
+  flex-wrap: unset;\
+  width: 100%;\
+  max-width: unset;\
+  align-items: unset;\
+  display: grid;\
+  grid-template-columns: auto 1fr;\
+\}\
+\
+.learnmore:hover ~ .paymentmethoddetails \{\
+  display: block;\
+\}\
+\
+.paymentmethoddetails \{\
+  padding: 0;\
+  display: grid;\
+  margin-block-end: 0;\
+  border-top: 0;\
+  pointer-events: none;\
+  font-size: 12px;\
+\}\
+\
+#depositoptions .paymentlinks,\
+#depositoptions .paymentmethoddetails a,\
+#depositoptions .paymentmethoddetails br,\
+#depositoptions .paymentmethoddetails #creditcardbrands,\
+#depositoptions .paymentmethoddetails .webapphidden \{\
+  display: none;\
+\}\
+\
+.paymentmethodfeecalc \{\
+  visibility: hidden;\
+  display: inline-block;\
+  text-align: right;\
+  flex-grow: 1;\
+  pointer-events: none;\
+  width: 100%;\
+  color: var(--dark-gray);\
+  position: relative;\
+\}\
+\
+.payoutfees \{\
+  display: none;\
+\}\
+\
+.payoutfees .paymentmethodfeecalc::after \{\
+  visibility: visible;\
+  position: absolute;\
+  right: 15px;\
+\}\
+\
+.paymentmethodarea \{\
+  overflow: visible;\
+  min-height: auto;\
+  height: auto;\
+  width: calc((100% / 4) - 0px);\
+  max-width: calc((100% / 4) - 1px);\
+  min-width: 160px;\
+  border-bottom: 1px solid var(--gray-border);\
+  padding: 16px;\
+\}\
+\
+a.paymentbutton \{\
+  box-shadow: unset;\
+  border: none;\
+  border-radius: 4px;\
+  width: 96px;\
+  height: 60px;\
+  display: flex;\
+  align-items: center;\
+  margin: 0 16px 0 5px;\
+  grid-row-start: 1;\
+  grid-row-end: 3;\
+  margin-block-end: 0 !important;\
+\}\
+a.paymentbutton .spritepp \{\
+  margin: 32px 10px;\
+\}\
+\
+a.paymentbutton:hover \{\
+  box-shadow: unset;\
+  transform: unset;\
+  border-color: unset;\
+\}\
+\
+#payoutoptions .paymentmethodarea \{\
+  width: 100%;\
+  min-width: unset;\
+  max-width: unset;\
+  min-height: unset;\
+  text-align: left;\
+  display: grid;\
+  grid-template-columns: auto 1fr;\
+\}\
+\
+#payoutbanner .normaltext \{\
+  display: none;\
+\}\
+\
+#payoutbanner .bannertexttitle \{\
+  font-size: 0;\
+  margin-bottom: 8px;\
+\}\
+\
+#payoutbanner .bannertexttitle:before \{\
+  content: "1";\
+  font-size: 14px;\
+  font-weight: bold;\
+  color: white;\
+  background: var(--coral);\
+  display: inline-block;\
+  width: 24px;\
+  height: 24px;\
+  line-height: 24px;\
+  text-align: center;\
+  border-radius: 50%;\
+\}\
+\
+#payoutbanner .bannertexttitle:after \{\
+  content: "Enter withdrawal amount";\
+  font-size: 14px;\
+  color: var(--info-text);\
+  margin-left: 8px;\
+\}\
+\
+#payoutoptions \{\
+  margin-top: 68px;\
+\}\
+\
+div#payoutoptions:after \{\
+  order: -1;\
+  content: "2";\
+  font-size: 14px;\
+  font-weight: bold;\
+  color: white;\
+  background: var(--coral);\
+  display: inline-block;\
+  width: 24px;\
+  height: 24px;\
+  line-height: 24px;\
+  text-align: center;\
+  border-radius: 50%;\
+  position: sticky;\
+  margin-top: -42px;\
+\}\
+\
+div#payoutoptions:before \{\
+  content: "Select a payment method below";\
+  font-size: 14px;\
+  color: var(--info-text);\
+  width: calc(100% - 32px - 12px);\
+  line-height: 24px;\
+  position: sticky;\
+  margin-left: 32px;\
+  margin-top: -42px;\
+\}\
+\
+/* Payout banner */\
+\
+#payoutbanner \{\
+  background: none;\
+  justify-content: center;\
+  flex-direction: column;\
+  align-items: flex-start;\
+  padding: 0;\
+  margin: 0 0 24px;\
+  --text-color: unset;\
+\}\
+\
+/* sliderbutton */\
+\
+.sliderbutton \{\
+  background: none;\
+  border: none;\
+  vertical-align: bottom;\
+  height: 32px;\
+  width: 37px;\
+  text-decoration: none;\
+  text-indent: -9999px;\
+  padding: 0;\
+  margin: 0;\
+  box-shadow: none;\
+  bottom: 0 !important;\
+  position: inherit;\
+\}\
+\
+input.sliderbutton \{\
+  color: transparent;\
+  border-bottom: 1px solid var(--gray) !important;\
+\}\
+input.sliderbutton \{\
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='6px' viewBox='0 0 12 6' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3EPath 12%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0.8'%3E%3Cg id='icons/dropdown/normal/normal-normal' transform='translate(-2.000000, -5.000000)' fill='%23000000'%3E%3Cpath d='M13.1636636,5.13002996 C13.3679924,4.9442765 13.6842166,4.95933479 13.86997,5.1636636 C14.0557235,5.36799241 14.0406652,5.68421657 13.8363364,5.86997004 L8.3363364,10.86997 C8.14562578,11.0433433 7.85437422,11.0433433 7.6636636,10.86997 L2.1636636,5.86997004 C1.95933479,5.68421657 1.9442765,5.36799241 2.13002996,5.1636636 C2.31578343,4.95933479 2.63200759,4.9442765 2.8363364,5.13002996 L7.99999647,9.8242696 L13.1636636,5.13002996 Z' id='Path-12'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");\
+\}\
+input.sliderbutton:hover \{\
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='6px' viewBox='0 0 12 6' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3EPath 12%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='icons/dropdown/normal/normal-normal' transform='translate(-2.000000, -5.000000)' fill='%23FF444F'%3E%3Cpath d='M13.1636636,5.13002996 C13.3679924,4.9442765 13.6842166,4.95933479 13.86997,5.1636636 C14.0557235,5.36799241 14.0406652,5.68421657 13.8363364,5.86997004 L8.3363364,10.86997 C8.14562578,11.0433433 7.85437422,11.0433433 7.6636636,10.86997 L2.1636636,5.86997004 C1.95933479,5.68421657 1.9442765,5.36799241 2.13002996,5.1636636 C2.31578343,4.95933479 2.63200759,4.9442765 2.8363364,5.13002996 L7.99999647,9.8242696 L13.1636636,5.13002996 Z' id='Path-12'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");\
+\}\
+input.sliderbutton,\
+input.sliderbutton:hover \{\
+  background-position: center;\
+  background-repeat: no-repeat;\
+\}\
+\
+/* SPINNER */\
+.spinner \{\
+  width: 100%;\
+  height: 100%;\
+  top: 0;\
+  left: 0;\
+  right: 0;\
+  bottom: 0;\
+  position: fixed;\
+  background-color: var(--white);\
+  /*background-color: #ffffffbf;*/\
+  animation: none;\
+  margin: 0;\
+  transform: none;\
+  border: none;\
+  z-index: 101;\
+\}\
+\
+.spinner:before \{\
+  content: "";\
+  display: block;\
+  width: 50px;\
+  height: 50px;\
+  margin: -35px 0 0 -35px;\
+  position: absolute;\
+  top: 50%;\
+  left: 50%;\
+  border-radius: 50%;\
+  border-top: 8px solid var(--coral);\
+  border-right: 8px solid var(--coral-transparent);\
+  border-bottom: 8px solid var(--coral-transparent);\
+  border-left: 8px solid var(--coral-transparent);\
+  box-sizing: content-box;\
+  animation-name: spin;\
+  animation-duration: 500ms;\
+  animation-iteration-count: infinite;\
+  animation-timing-function: linear;\
+  transform-origin: center;\
+\}\
+\
+@keyframes spin \{\
+  from \{\
+    transform: rotate(0deg);\
+  \}\
+  to \{\
+    transform: rotate(360deg);\
+  \}\
+\}\
+\
+/* Submit Button */\
+\
+.AltButton \{\
+  font-size: 14px;\
+  height: 40px;\
+  min-height: unset;\
+\}\
+\
+form[action="./PayoutReview.asp"] \{\
+  min-height: 12em;\
+\}\
+\
+.SubmitButton,\
+a.simplebutton \{\
+  box-shadow: none;\
+  background: none;\
+  background-color: var(--coral);\
+  color: var(--white);\
+  display: flex;\
+  text-shadow: none;\
+  border: none;\
+  border-radius: 6px;\
+  font-weight: bold;\
+  font-size: 14px;\
+  height: 40px;\
+  line-height: 40px;\
+  padding: 0 16px;\
+  justify-content: center;\
+  align-items: center;\
+  min-height: 40px;\
+\}\
+\
+.SubmitButton:hover,\
+a.simplebutton:hover \{\
+  box-shadow: none;\
+  background: none;\
+  background-color: var(--coral-hover);\
+  color: var(--white);\
+  text-shadow: none;\
+  border: none;\
+\}\
+\
+/* Top payment button */\
+\
+.toppaymentbutton \{\
+  border-color: var(--aqua-blue);\
+\}\
+\
+.toppaymentbutton:focus \{\
+  border-color: var(--aqua-blue) !important;\
+\}\
+\
+.toppaymentbutton:hover \{\
+  border-color: var(--aqua-blue) !important;\
+  box-shadow: 0px 0px 4px 2px var(--aqua-blue) !important;\
+\}\
+\
+.toppaymentbutton.more \{\
+  width: 40px;\
+  height: 40px;\
+  display: flex;\
+  justify-content: center;\
+\}\
+\
+.toppaymentbutton.more span \{\
+  color: var(--aqua-blue);\
+\}\
+\
+.toppaymentbutton.more:hover span \{\
+  color: var(--aqua-blue) !important;\
+\}\
+\
+/*Tnx tables*/\
+\
+#txnreviewtable \{\
+  font-size: 12px;\
+  background: none;\
+  margin-bottom: 20px !important;\
+\}\
+\
+#txnreviewtable .txnreviewrowodd \{\
+  background: none;\
+\}\
+\
+#txnreviewtable .txnreviewroweven \{\
+  background: var(--light-gray);\
+\}\
+\
+#txnreviewtable th \{\
+  text-align: left;\
+  border: none !important;\
+  background: none;\
+  font-weight: bold;\
+  padding: 12px 0;\
+\}\
+\
+#txnreviewtable td \{\
+  text-align: left;\
+\}\
+\
+#txnreviewtable .txnreviewtd \{\
+  border: none;\
+  padding: 16px 4px;\
+  text-align: left !important;\
+  vertical-align: middle;\
+\}\
+\
+#txnreviewtable .commentstext \{\
+  font-size: 10px;\
+  line-height: 10px;\
+  padding: 4px 1px 16px;\
+  opacity: 0.4;\
+\}\
+\
+td.valigntop.txnreviewtd:first-child \{\
+  padding-left: 12px !important;\
+\}\
+\
+#txnreviewtable th:first-child \{\
+  padding-left: 12px !important;\
+\}\
+\
+td.valigntop.txnreviewtd:last-child \{\
+  padding-right: 12px !important;\
+\}\
+\
+#txnreviewtable th:last-child \{\
+  padding-right: 12px !important;\
+\}\
+\
+#txnreviewtable .mobilehidden \{\
+  display: block;\
+\}\
+\
+.errorarea .smalltext a.linkline \{\
+  display: none;\
+\}\
+\
+.warningarea .smalltext div strong \{\
+  color: var(--error);\
+\}\
+\
+#AccountIdentifier \{\
+  background: rgba(255, 255, 255, 0);\
+  text-transform: none !important;\
+\}\
+\
+/*formlabels*/\
+@media (min-width: 501px) \{\
+  .formrow .formlabel,\
+  .formsection label \{\
+    width: 44%;\
+  \}\
+\
+  /* Custom payout limit details */\
+\
+  .paymentmethodarea .payout-limit:after \{\
+    content: "|";\
+    margin: 0 4px;\
+  \}\
+  .paymentmethodarea .payoutdetails \{\
+    position: absolute;\
+    bottom: 18px;\
+    left: 150px;\
+  \}\
+  .paymentmethodarea:is(#PayoutOptionBeyonicMT, #PayoutOptionD24BankTransfer)\
+    .payoutdetails \{\
+    left: 167px;\
+  \}\
+  .paymentmethodarea:is(#PayoutOptionhelp2pay) .payoutdetails \{\
+    left: 170px;\
+  \}\
+  .paymentmethodarea:is(#PayoutOptionDragonPhBT, #PayoutOptionBTT)\
+    .payoutdetails \{\
+    left: 0;\
+  \}\
+  .paymentmethodarea:is(#PayoutOptionCFT) .payoutdetails \{\
+    left: 174px;\
+  \}\
+\}\
+\
+/* Fix bug with payout table form on mobile */\
+@media (max-width: 500px) \{\
+  form[action="CC_Deposit.asp"] .formarea input#btnCustomListBox \{\
+    bottom: 6px;\
+  \}\
+  form[action="./PayoutDetails.asp"] .formarea input#btnCustomListBox \{\
+    bottom: 6px;\
+  \}\
+  .formarea > .valueelement \{\
+    display: flex;\
+    flex-direction: column;\
+    margin-left: auto;\
+  \}\
+\}\
+\
+@media (max-width: 700px) \{\
+  .formarea div.errorarea \{\
+    margin-top: 50px;\
+  \}\
+\}\
+\
+#depositoptions,\
+#payoutoptions \{\
+  grid-template-columns: repeat(1, 1fr);\
+  border-top: 1px solid var(--gray-border);\
+\}\
+\
+.paymentmethodarea .bigtext \{\
+  color: var(--info-text);\
+  font-size: 14px;\
+  line-height: 20px;\
+  font-weight: bold;\
+  text-align: left;\
+  padding: 0;\
+  grid-column-start: 2;\
+  grid-column-end: 4;\
+  min-height: unset !important;\
+\}\
+\
+#depositoptions a + a + .bigtext:before \{\
+  position: absolute;\
+  top: 20px;\
+  font-weight: normal;\
+  font-size: 12px;\
+  line-height: 18px;\
+\}\
+#depositoptions a + a + .bigtext:after \{\
+  position: absolute;\
+  bottom: 0;\
+  left: 10px;\
+  font-weight: normal;\
+  color: #999;\
+  font-size: 12px;\
+\}\
+\
+form[action="./PayoutRequest.asp#"] .formsection \{\
+  display: flex;\
+\}\
+form[action="./PayoutRequest.asp#"] .formrow.nowrapflex \{\
+  flex-direction: column !important;\
+  flex: 1;\
+\}\
+form[action="./PayoutRequest.asp#"] .formrow .labelelement \{\
+  font-size: 16px !important;\
+  line-height: 24px;\
+  text-align: center;\
+\}\
+form[action="./PayoutRequest.asp#"] .formrow .valueelement \{\
+  width: unset;\
+  flex-grow: unset;\
+\}\
+#amountTooltip \{\
+  margin-left: 34px;\
+\}\
+\
+.successContainer + .formheader \{\
+  display: block;\
+\}\
+@media (min-width: 500px) \{\
+  .totalamount .decimalSection \{\
+    font-size: 20px;\
+  \}\
+\}\
+@media (max-width: 500px) \{\
+  a.paymentbutton \{\
+    width: 64px;\
+    height: 40px;\
+    margin: 0 8px;\
+  \}\
+  #depositoptions a + a + .bigtext,\
+  #payoutoptions a + .bigtext \{\
+    font-size: 12px;\
+    line-height: 18px;\
+  \}\
+  form[action="./PayoutRequest.asp#"] .formsection \{\
+    flex-direction: column;\
+  \}\
+  #txnreviewtable \{\
+    margin: 0;\
+  \}\
+  .paymentmethodarea \{\
+    padding: 8px;\
+  \}\
+  form[action="./PayoutRequest.asp#"] .formrow .labelelement \{\
+    font-size: 14px !important;\
+    line-height: 20px !important;\
+  \}\
+  .formsection .amountholder,\
+  .totalamount .decimalSection \{\
+    font-size: 16px !important;\
+    line-height: 24px !important;\
+    vertical-align: unset;\
+  \}\
+  #nav-backbtn \{\
+    left: 9%;\
+    bottom: 120px;\
+  \}\
+  html[data-action="PAYOUTDETAILS.ASP"] a.simplebutton \{\
+    margin-bottom: -8px;\
+  \}\
+\}\
+\
+.payout-limit,\
+.deposit-limit,\
+.inline-payout-limit\{\
+  color: #999999;\
+  line-height: 18px;\
+\}\
+form[action^="./PayoutDetails.asp"] .payout-limit \{\
+  display: none;\
+\}\
+.payout-limit:not(.has-note),\
+.deposit-limit:not(.has-note) \{\
+  margin-top: 26px;\
+\}\
+\
+.deposit-note \{\
+  color: var(--coral);\
+  font-size: 10px;\
+  line-height: 14px;\
+  margin: 8px 0 4px;\
+\}\
+\
+@media (max-width: 500px) \{\
+  #amountTooltip input \{\
+    font-size: 16px !important;\
+  \}\
+\
+  .paymentmethoddetails \{\
+    font-size: 10px;\
+  \}\
+\
+  .payout-limit,\
+  .deposit-limit \{\
+    line-height: 14px;\
+  \}\
+\
+  .paymentmethodarea .payoutdetails .payoutlimits \{\
+    font-size: 10px;\
+  \}\
+\}\
+\
+.paymentmethodarea:is(#PayoutOptionCFT) ,\
+.paymentmethodarea:is(#PayoutOptionadvcash) \{\
+    grid-template-rows: max-content;\
+ \}\
+\
+.paymentmethodarea:is(#PayoutOptionadvcash) .paymentmethoddetails:before \{\
+	content: "Advcash";\
+\}\
+\
+.paymentmethodarea:is(#PayoutOptionCFT) .paymentmethoddetails:before \{\
+	content: "Credit & Debit Cards";\
+\}\
+\
+.paymentmethodarea:is(#PayoutOptionadvcash) .paymentmethoddetails:before,\
+.paymentmethodarea:is(#PayoutOptionCFT) .paymentmethoddetails:before \{\
+	color: var(--info-text);\
+    font-size: 14px;\
+    line-height: 20px;\
+    font-weight: bold;\
+	grid-column-start: 1;\
+\}\
+\
+.paymentmethodarea:is(#PayoutOptionadvcash) .inline-payout-limit\{\
+	margin-top: 26px;\
+\}\
+}
