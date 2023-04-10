@@ -1,0 +1,132 @@
+<resources>
+	<resourceItem id=""></resourceItem>
+	
+	<resourceItem id="NganLuongCustomPayoutText">Name and surname must be inserted in the same order of the bank account the funds are being sent.</resourceItem>
+	<resourceItem id="D24VoucherLabel"><![CDATA[
+	
+		Boleto & Loterias Caixa
+ 	]]></resourceItem>
+	
+	<resourceItem id="D24BankDepositLabel">Manual Bank Deposit</resourceItem>
+	<resourceItem id="D24BankTransferLabel">Online Bank Transfer</resourceItem>
+	<resourceItem id="res_CreditCardsLabel">Credit/debit cards</resourceItem>
+	<resourceItem id="D24VoucherLabel">Cash Solutions</resourceItem>
+	<resourceItem id="res_CreditCardsCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="customerBlockedByProfile"><![CDATA[Your account is restricted from accessing this part of the cashier. For assistance, please contact <a href="https://deriv.com/?is_livechat_open=true" style="color: #2707d6">Customer Service</a>.]]></resourceItem>
+	
+	<resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Withdrawal limit:]]></resourceItem>
+	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="SkrillPayoutDescription"><![CDATA[Funds will appear in your account after a min of 24 hours from date of request.]]></resourceItem>
+	
+<resourceItem id="PayRTransferCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>	
+	<resourceItem id="D24BankDepositCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.<br></br>Bank details are a subject to change, kindly use the ones provided on the next page.]]></resourceItem>
+<resourceItem id="D24BankTransferCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="XRPCustomDepositText"	><![CDATA[<b>You must input the address and the tag on your wallet to complete the deposit. </b>  <center> Send only <b> Ripple (XRP) </b> to the address that will be created. </center>Do not send any other currency to the following address, and do not use the same address for multiple deposits. Otherwise, you’ll lose funds. Shall you wish to make a new deposit, please refresh the page and obtain the new address generated.]]></resourceItem>
+	<resourceItem id="Directa24SCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="BR_Directa24SCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PaymeroBTCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PaymeroVACustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PaymeroUPICustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PaymeroNBCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PaymeroEWCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="AstroPayCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PIXCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked. <br></br> Make sure your zip code is correct on your account details before proceeding.]]></resourceItem>
+	<resourceItem id="VerveCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="UPICustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PayLivreCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="CreditCardsCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="JetonWLCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="JetonGOCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="OneVoucherCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="NETellerCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="OnlineNairaCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="advcashCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="SkrillCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="Skrill1TapCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="SticPayCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="DragonPhxCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="PayzoffAPMCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="EFTPayCustomDepositText"><![CDATA[<strong>Payouts are to be requested via ZingPay</strong><br></br>Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="ZingPayCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.
+]]></resourceItem>
+		<resourceItem id="FasapayCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="WebmoneyCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="JetonCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="PayTrustCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="SticPayCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="AirTMCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="Skrill1TapCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+		<resourceItem id="PymtAsiaAPMCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>	
+	<resourceItem id="QiwiCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>
+	<resourceItem id="NganLuongCustomPayoutText"><![CDATA[<strong>Please input your beneficiary name in the Vietnamese order that match with your bank account name and no special character.]]></resourceItem>
+	
+	<resourceItem id="altSkrill2PayoutDescription"><![CDATA[Make instant deposits using your e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="altNETellerPayoutDescription"><![CDATA[Make instant deposits using your e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="AstroPayPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="BeyonicMTPayoutDescription"><![CDATA[Make fast and easy deposits using your mobile phone.<div class="payout-limit">Withdrawal: 1-2 working days</div>]]></resourceItem>
+	<resourceItem id="BTCPayoutDescription"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="D24BankTransferPayoutDescription"><![CDATA[Make secure online transactions.<div class="payout-limit">Withdrawal: 1-2 working days</div>]]></resourceItem>
+	<resourceItem id="ETHPayoutDescription"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="GatechUPIPayoutDescription"><![CDATA[Make fast and easy deposits through your bank account.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="NganLuongPayoutDescription"><![CDATA[Make deposits using Vietnam’s leading e-wallet service.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="OnlineNairaPayoutDescription"><![CDATA[Instant deposits with your local OnlineNaira e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="PayLivrePayoutDescription"><![CDATA[Make instant deposits using your local e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="paysafePayoutDescription"><![CDATA[Make deposits using your local voucher system.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="SkrillPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="SolidPayWavePayoutDescription"><![CDATA[Make instant deposits using your e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="TRXPayoutDescription"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="VervePayoutDescription"><![CDATA[Deposit through your local payment cards.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="ZingPayPayoutDescription"><![CDATA[Make deposits and withdrawals through your local bank in real-time.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="advcashPayoutDescription"><![CDATA[Make instant deposits using your e-wallet.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="help2payPayoutDescription"><![CDATA[Make deposits and withdrawals through your local bank in real-time.<div class="payout-limit">Withdrawal: N/A</div>]]></resourceItem>
+	<resourceItem id="PerfectMPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="AirTMPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="CFTPayoutDescription"><![CDATA[Make deposits and withdrawals using your credit and debit cards.<div class="deposit-note">MasterCard does not allow withdrawal.</div><div class="payout-limit has-note">Withdrawal: 5-15 working days</div>]]></resourceItem>
+	<resourceItem id="PayRTransferPayoutDescription"><![CDATA[<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="NETellerPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="JetonWLPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	<resourceItem id="SPEIPayoutDescription"><![CDATA[Make instant deposits using your local voucher system.<div class="payout-limit">Withdrawal: N/A</div>]]></resourceItem>
+	<resourceItem id="SticPayPayoutDescription"><![CDATA[Make instant e-wallet deposits.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
+	
+	<resourceItem id="AirTMLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-2500 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="SkrillLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="BeyonicMTLongText"><![CDATA[Make fast and easy deposits using your mobile phone.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1-2 working days | Deposit limit: 5-800 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="AstroPayLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="CreditCardsLongText"><![CDATA[Make deposits and withdrawals using your credit and debit cards.<div><div class="deposit-note">MasterCard does not allow withdrawal.</div><div class="deposit-limit has-note">Deposit: Instant | Withdrawal: 5-15 working days | Deposit limit: 10-5000 %_FrontEndBaseCurrency_%</div></div>]]></resourceItem>
+	<resourceItem id="D24BankDepositLongText"><![CDATA[Make easy deposits through your local banks.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-5000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="D24BankTransferLongText"><![CDATA[Make secure online transactions.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1-2 working days | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="D24VoucherLongText"><![CDATA[Make instant deposits using your local voucher system.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="help2payLongText"><![CDATA[Make deposits and withdrawals through your local bank in real-time.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 15-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="JetonWLLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="OneVoucherLongText"><![CDATA[Make instant deposits using your local voucher system.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-150 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="OnlineNairaLongText"><![CDATA[Instant deposits with your local OnlineNaira e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="PayLivreLongText"><![CDATA[Make instant deposits using your local e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="paysafeLongText"><![CDATA[Make deposits using your local voucher system.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="PayTrustLongText"><![CDATA[Make easy deposits via any major bank.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="PerfectMLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="PIXLongText"><![CDATA[Make fast deposits using PIX, Brazilian banks’ most popular payment solution.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 1-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="UPILongText"><![CDATA[Make fast and easy deposits through your bank account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1300 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="VerveLongText"><![CDATA[Deposit through your local payment cards.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="WebMoneyLongText"><![CDATA[Make instant deposits using your e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-3000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="XRPLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="SolidPayWaveLongText"><![CDATA[Make instant deposits using your e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="SticPayLongText"><![CDATA[Make instant deposits using your e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="TRXLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="PagoEfectivoLongText"><![CDATA[Make instant deposits using your local voucher system.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-700 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="ETHLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 50-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="LTCLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="BTCLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 20-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="BCHLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="advcashLongText"><![CDATA[Make instant deposits using your e-wallet.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="SPEILongText"><![CDATA[Make instant deposits using your local voucher system.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-800 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="NetellerLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	<resourceItem id="DOGLongText"><![CDATA[Make instant deposits using crypto to your fiat account.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
+	
+	<!--resourceItem id="CFTPayoutDescription"><![CDATA[It may take from 5 to 15 working days for your funds to appear in your account. This depends on the card’s issuing bank.]]></resourceItem-->
+	<resourceItem id="FasaPayPayoutDescription"><![CDATA[Funds will appear in your account after a minimum of 24 hours from date of request.]]></resourceItem>
+	<resourceItem id="WebMoneyPayoutDescription"><![CDATA[Funds will appear in your account after a minimum of 24 hours from date of request.]]></resourceItem>
+	
+	<resourceItem id="ccPreAuthDeclinedText"><![CDATA[<strong>Please note, multiple attempts have been made to process your transaction.<br></br>Unfortunately, these attempts have been unsuccessful and your payment has not been processed.<br></br>Please utilise an alternative payment method and try again.<br></br>- Binary.com]]></resourceItem>
+	
+</resources>
