@@ -1483,9 +1483,9 @@ html[data-action="CASHIERMENU.ASP"] .amountholder{
 	display: none !important;
 }
 
-#nav-depositbtn{
+/*#nav-depositbtn{
 	display: none !important;
-}
+}*/
 
 form[action="PerfectM_Deposit.asp"] .simplebutton {
 display: none;
