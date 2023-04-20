@@ -15,8 +15,8 @@
 	<resourceItem id="customerBlockedByProfile"><![CDATA[Your account is restricted from accessing this part of the cashier. For assistance, please contact <a href="https://deriv.com/?is_livechat_open=true" style="color: #2707d6">Customer Service</a>.]]></resourceItem>
 	
 	<resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Withdrawal limit:]]></resourceItem>
-	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
+	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 	<resourceItem id="SkrillPayoutDescription"><![CDATA[Funds will appear in your account after a min of 24 hours from date of request.]]></resourceItem>
 	
 <resourceItem id="PayRTransferCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv/Binary.com account will be blocked.]]></resourceItem>	
@@ -128,5 +128,6 @@ Funds will appear in your account after a min of 24 hours from date of request.]
 	<resourceItem id="ccPreAuthDeclinedText"><![CDATA[<strong>Please note, multiple attempts have been made to process your transaction.<br></br>Unfortunately, these attempts have been unsuccessful and your payment has not been processed.<br></br>Please utilise an alternative payment method and try again.<br>{1}</br>- Binary.com]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthBIN444433"><![CDATA[Unfortunately, <b>Capitec Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a direct bank transfer from your <b>Capitec Bank</b> account via <b>ZingPay</b>! Click the button below.<p><a class="paymentbutton" href="EFTPay_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=ZingPay"><span class="ZingPay spritepp"></span></a>]]></resourceItem>
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 	
 </resources>

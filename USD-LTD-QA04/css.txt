@@ -733,7 +733,7 @@ input[type="tel"],
 input[type="text"],
 select {
   height: 32px;
-	line-height: 2em;
+  line-height: 2em;
 }
 
 input#convertedamount {
@@ -1493,6 +1493,7 @@ display: none;
 
 .noticemsgsmall:before {
   top: calc(100%/3);
+  visibility: hidden;
 }
 
 .ForgetPMInfoBtn {
@@ -1509,5 +1510,11 @@ main {
 
 .floatright{
 	float: unset;
+}
+
+@media (max-width: 552px){
+	.pmimagelisting{
+			justify-content: center!important;
+	}
 }
 
