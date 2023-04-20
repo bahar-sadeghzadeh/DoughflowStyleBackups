@@ -1,0 +1,1077 @@
+/*   Custom CSS Level:1   */
+body, html {
+    background-color: #fff;
+}
+.navbar, .formsection, .paymentmethodarea {
+    background-color: #fff;
+}
+
+.formsection, .paymentmethodarea {
+border: 1px solid #f9f9f9;
+}
+
+a.menubutton, .SubmitButton, .sliderbutton {
+background-color: #2e8836;
+    border: 1px solid #2e8836;
+}
+
+a.menubutton:hover, .SubmitButton:hover, .sliderbutton:hover {
+background-color: #14602b;
+    border: 1px solid #14602b;
+}
+
+#depositbanner, #payoutbanner {
+    background: #2A3052;
+}
+
+#depositbanner .help, #depositbanner a.simplebutton, #payoutbanner .help, #payoutbanner a.simplebutton {
+background: #525d9a;
+border: gray;
+color: #fff;
+}
+
+/* TEST CHANGES AFTER THIS LINE */
+#stickyribbon { position: static; z-index: initial; }
+
+:root {
+--white: #FFFFFF;
+--light-gray: #F6F6F6;
+--gray: #D6DADB;
+--dark-gray: #9B9B9B;
+--black-text: rgba(0,0,0,0.8);
+--black: #0E0E0E;
+--coral: #FF444F;
+--coral-hover: #D43E47;
+--teal: #85ACB0;
+--coral-transparent: #ff444f0d;
+--dark-red: #CC2E3D;
+--orange: #FF6444;
+--red: #EC3F3F;
+--green: #4BB4B3;
+}
+
+/* general */
+* {
+font-family: Roboto, sans-serif;
+}
+a, a:visited, a:link {
+color: var(--coral);
+}
+a:not(.menubutton):not(.simplebutton):hover {
+text-decoration: underline;
+}
+.infomsg a:visited, .infomsg a:link,
+.noticemsgsmall a:visited, .noticemsgsmall a:link,
+.infomsgsmall a:visited, .infomsgsmall a:link,
+.errorarea a:visited, .errorarea a:link,
+.panicmsgarea a:visited, .panicmsgarea a:link,
+.warningarea a:visited, .warningarea a:link,
+.warningareasmall a:visited, .warningareasmall a:link {
+color: var(--white);
+text-decoration: underline;
+}
+.infomsg a:hover,
+.noticemsgsmall a:hover,
+.infomsgsmall a:hover,
+.errorarea a:hover,
+.panicmsgarea a:hover,
+.warningarea a:hover,
+.warningareasmall a:hover {
+color: var(--white);
+}
+
+
+h3 {
+display: none;
+}
+.paymentmethodarea {
+overflow: visible;
+}
+
+.paymentmethoddetails {
+position: absolute;
+z-index: 1;
+background: papayawhip;
+width: 100%;
+right: -100%;
+max-height: max-content;
+}
+
+.learnmore:hover ~ .paymentmethoddetails {
+display: block;
+}
+
+/*.displayarea,
+#depositbanner,
+.paymentmethodarea .learnmore,
+hr.freetextarealine,
+.freetextarea.fineprint.lefttext,
+.freetextarea.copyright,
+.paymentimgborder + div,
+#contextmenu,
+a[href="javascript:print()"] {
+display: none;
+}
+*/
+
+/*.displayarea,*/
+#depositbanner,
+.paymentmethodarea .learnmore,
+hr.freetextarealine,
+.freetextarea.fineprint.lefttext p ,
+.freetextarea.fineprint.lefttext b ,
+.freetextarea.fineprint.lefttext a ,
+.freetextarea.fineprint.lefttext div ,
+.trustmarks,
+.freetextarea.copyright,
+.paymentimgborder + div,
+#contextmenu,
+a[href="javascript:print()"] {
+display: none;
+}
+
+main, #navmenu {
+max-width: 664px;
+}
+
+#depositoptions, #payoutoptions {
+justify-content: center;
+}
+
+.paymentmethodarea {
+min-height: auto;
+height: auto;
+width: calc((100% / 4) - 0px);
+max-width: calc((100% / 4) - 1px);
+min-width: 160px;
+border: none;
+}
+
+a.paymentbutton {
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16);
+border: none;
+border-radius: 4px;
+width: 142px;
+height: 95px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 5px 8px;
+}
+
+a.paymentbutton:hover {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+z-index: 10;
+}
+
+a.paymentbutton:active, a.paymentbutton:focus {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16) !important;
+}
+
+.paymentmethodarea .bigtext {
+color: rgba(0,0,0,0.8);
+font-size: 12px;
+line-height: 14px;
+font-weight: 400;
+min-height: 28px;
+text-align: left;
+padding: 0 10px;
+}
+
+.paymentmethodarea .bigtext:hover {
+color: rgba(0,0,0,0.8);
+}
+
+
+span.pwrdbytext {
+font-size: 8px;
+font-style: normal;
+display: block;
+margin-top: 2px;
+color: #999cac;
+}
+
+span.pwrdbytext:before {
+content: 'Powered by ';
+}
+
+.formsection, .paymentmethodarea {
+border: none;
+}
+
+.SubmitButton, a.simplebutton {
+box-shadow: none;
+background: none;
+background-color: var(--coral);
+color: var(--white);
+text-shadow: none;
+border: none;
+border-radius: 6px;
+font-weight: bold;
+font-size: 14px;
+height: 40px;
+line-height: 40px;
+padding: 0 16px;
+}
+
+.SubmitButton:hover, a.simplebutton:hover {
+box-shadow: none;
+background: none;
+background-color: var(--coral-hover);
+color: var(--white);
+text-shadow: none;
+border: none;
+}
+
+.SubmitButton > span.fa-arrow-circle-right:before {
+    content: "\f054";
+}
+
+.fa-fw {
+width: 16px;
+vertical-align: middle;
+}
+
+.cardtypeimages {
+margin-bottom: 16px;
+}
+.cardtypeimage {
+border: none;
+}
+
+.formarea a:not([href]),
+.formarea a:not([href]):hover,
+.formarea a:not([href]):visited {
+color: black;
+text-decoration: none;
+}
+
+/* payout page */
+
+form[action="./PayoutRequest.asp#"] .formarea .formsection .formrow:nth-child(3),
+form[action="./PayoutRequest.asp#"] .formarea .formsection .formrow:nth-child(4) {
+display: none;
+}
+
+form[action="./PayoutRequest.asp#"] .formarea .formsection .formheader {
+display: none;
+}
+
+#payoutoptions {
+margin-top: 32px;
+}
+
+#payoutoptions .paymentmethodarea {
+margin: 8px 0 16px;
+}
+
+#payoutbanner {
+background: none;
+justify-content: center;
+}
+
+#payoutbanner .normaltext {
+font-size: 16px;
+color: var(--black-text);
+}
+
+#payoutbanner .normaltext.mobilehidden,
+#payoutbanner a {
+display: none;
+}
+
+/* step titles */
+
+#payoutbanner {
+flex-direction: column;
+align-items: flex-start;
+}
+
+#payoutbanner .bannertexttitle {
+font-size: 0;
+margin-bottom: 8px;
+}
+
+#payoutbanner .bannertexttitle:before {
+content: '1';
+font-size: 14px;
+font-weight: bold;
+    color: white;
+    background: var(--coral);
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#payoutbanner .bannertexttitle:after {
+content: 'Enter amount';
+    font-size: 14px;
+    color: var(--dark-gray);
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+div#payoutoptions:after {
+order: -1;
+    content: '2';
+    font-size: 14px;
+font-weight: bold;
+    color: white;
+    background: var(--coral);
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+div#payoutoptions:before {
+content: 'Select method';
+    font-size: 14px;
+    color: var(--dark-gray);
+    font-weight: bold;
+    margin-left: 12px;
+    width: calc(100% - 32px - 12px);
+    line-height: 24px;
+}
+
+/* end of step titles */
+
+.payoutdetails {
+color: #999cac;
+text-align: right;
+font-size: 10px;
+margin-top: 10px;
+padding: 0 10px;
+}
+
+.paymentmethodfeecalc {
+display: inline-block;
+text-align: right;
+flex-grow: 1;
+}
+
+.payoutlimits {
+width: 100%;
+}
+
+.payoutfees, .payoutlimits-min, .payoutlimits-max {
+display: flex;
+text-align: left;
+margin-bottom: 1px;
+}
+
+.smallamountholder {
+min-width: auto;
+text-align: right;
+}
+
+.payouttimeframe {
+color: #999cac;
+}
+
+.infomsg, .errorarea, .warningarea, .noticemsgsmall, .infomsgsmall, .panicmsgarea {
+/* background-color: transparent; */
+border: none;
+border-radius: 4px;
+/* color: #e53935; */
+font-size: 14px;
+padding: 16px;
+padding-left: 56px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 16px auto;
+}
+
+.noticemsgsmall .descriptortext {
+font-family: Roboto, sans-serif;
+text-align: left;
+font-size: inherit;
+}
+
+.infomsg .bigtext, .errorarea .bigtext, .warningarea .bigtext {
+font-size: 16px;
+margin-bottom: 8px;
+}
+
+.infomsg:before, .errorarea:before, .warningarea:before, .noticemsgsmall:before, .infomsgsmall:before, .panicmsgarea:before {
+font-size: 16px;
+line-height: 24px;
+display: inline-block;
+position: absolute;
+margin-top: 16px;
+transform: translateY(-50%);
+left: 24px;
+animation: none;
+}
+
+.errorarea, .warningarea {
+color: #e53935;
+background-color: transparent;
+border-style: solid;
+border-color: #e53935;
+border-radius: 4px;
+border-width: 2px;
+}
+
+.errorarea .smalltext, .warningarea .smalltext {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0;
+color: #333333;
+}
+
+.errorarea .smalltext div, .warningarea .smalltext div {
+margin-bottom: 8px;
+}
+
+.errorarea .smalltext div:last-child, .warningarea .smalltext div:last-child {
+margin-bottom: 0;
+}
+
+.errorarea .smalltext div:nth-child(even), .warningarea .smalltext div:nth-child(even) {
+display: none;
+}
+
+.errorarea .smalltext strong,
+.warningarea .smalltext strong {
+font-size: 16px;
+color: #e53935;
+}
+
+.errorarea ul, .warningarea ul {
+margin-left: 7px;
+font-weight: bold;
+}
+
+.normaltext {
+font-size: 14px;
+line-height: 1.4;
+}
+
+.payoutdetails.normaltext {
+font-size: 12px;
+line-height: 1.4;
+}
+
+.smalltext {
+font-size: 12px;
+line-height: 1.4;
+}
+
+a:focus, button:focus {
+box-shadow: none !important;
+}
+
+.SubmitButton:disabled {
+color: #ffffff;
+}
+
+.SubmitButton > .fa-spinner {
+    display: none;
+}
+
+.SubmitButton:active {
+    background: var(--coral-hover);
+    box-shadow: none;
+    padding: unset;
+}
+
+.formsection.helparea:before {
+color: #2488d426;
+}
+
+.formheader {
+text-align: center;
+margin-bottom: 16px;
+}
+
+#main .valueelement,
+#main .labelelement {
+color: var(--dark-gray);
+}
+
+.labelelement a[href^='PayoutReview.asp'] {
+color: var(--dark-gray);
+pointer-events: none;
+}
+
+span.valueelement a[href^='PayoutReview.asp'] {
+display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    background-color: var(--light-gray);
+    color: var(--black-text);
+    padding: 0 16px;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+a[href^='PayoutReview.asp'] .fa.fa-search:before {
+content: 'Review pending';
+font-size: 12px;
+font-weight: bold;
+font-family: Roboto, sans-serif;
+position: relative;
+top: -1px;
+}
+
+.formsection .amountholder {
+font-size: 14px;
+color: var(--black);
+}
+
+.amountholder.totalamount {
+border-color: var(--light-gray);
+border-width: 2px;
+margin-top: 8px;
+line-height: 36px;
+}
+
+
+/* remove all redundant USD */
+/* .amountholder span,
+span[style='font-size:smaller'] {
+display: none;
+} */
+
+
+/* payout request table */
+.formsection {
+color: rgba(0,0,0,0.8);
+}
+#txnreviewtable {
+font-size: 12px;
+background: none;
+}
+
+#txnreviewtable .txnreviewrowodd {
+background: none;
+}
+#txnreviewtable .txnreviewroweven {
+background: var(--light-gray);
+}
+#txnreviewtable th {
+text-align: left;
+border: none !important;
+background: none;
+font-weight: bold;
+padding-bottom: 12px;
+}
+#txnreviewtable td {
+text-align: left;
+}
+#txnreviewtable .txnreviewtd {
+border: none;
+padding: 16px 4px 0;
+}
+#txnreviewtable .commentstext {
+font-size: 10px;
+line-height: 10px;
+color: rgba(0, 0, 0, 0.4);
+padding: 4px 1px 16px;
+}
+td.valigntop.txnreviewtd:first-child {
+padding-left: 12px !important;
+}
+#txnreviewtable th:first-child {
+padding-left: 12px !important;
+}
+td.valigntop.txnreviewtd:last-child {
+padding-right: 12px !important;
+}
+#txnreviewtable th:last-child {
+padding-right: 12px !important;
+}
+.help, .helpxx {
+display: inline;
+background: none;
+color: var(--coral);
+}
+.helpxx {
+width: 14px;
+height: 14px;
+}
+
+
+span[style='font-size:smaller;'] {
+font-size: inherit;
+}
+
+
+/* INPUTS */
+input:not([type=submit]):not([type=button]), select {
+border-color: var(--gray);
+background-color: transparent !important;
+}
+input::placeholder, textarea::placeholder {
+color: var(--dark-gray);
+}
+input[type]:focus, select:focus {
+border-color: var(--teal) !important;
+}
+input[type]:focus,select:focus {
+    box-shadow: none;
+    caret-color: var(--teal);
+}
+input#cardnumber, input#CVV, input#password, input[type=password] {
+background-image: none;
+  background: var(--white) !important;
+}
+#depositbanner .help, #payoutbanner .help, .help:hover, .warningarea .help:hover, .warningareasmall .help:hover {
+color: var(--coral);
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], select {
+height: 32px;
+}
+
+/* form */
+form[action$='Deposit.asp'] .formheader {
+display: none;
+}
+form .formrow {
+flex-direction: column;
+align-items: center;
+margin-bottom: 24px;
+}
+form .formrow label,
+form .formrow .formlabel {
+font-size: 12px !important;
+text-align: left;
+}
+.formrow .shortformlabel {
+width: 49%;
+}
+form[action$='Deposit.asp'] .formrow .formlabel,
+form[action$='Deposit.asp'] .formsection label {
+display: inline-block;
+text-align: left;
+width: 275px;
+margin: 0;
+padding: 0 0 0 5px;
+color: var(--dark-gray);
+position: relative;
+top: 2px;
+}
+.formrow .labelelement {
+width: 275px !important;
+}
+.formrow .formelement {
+width: 275px !important;
+}
+.formrow .longformelement {
+width: 275px !important;
+}
+.sliderbutton {
+background: none;
+border: none;
+vertical-align: bottom;
+}
+.sliderbutton:hover {
+background: none;
+border: none;
+}
+#SubmitBtn .fa-lock {
+display: none;
+}
+input#CVV ~ .webapphidden {
+display: none;
+}
+
+.webapphidden > a:hover {
+    text-decoration: none !important;
+}
+
+.doubleup {
+display: flex;
+width: 275px;
+margin: 0 auto;
+}
+.doubleup .formrow * {
+width: auto !important;
+}
+.doubleup .formrow:first-child {
+margin-right: 14px;
+}
+.CSCtip {
+position: relative;
+top: 3px;
+left: 7px;
+}
+
+form[action^="./PayoutDetails.asp"] .formsection:first-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow > span.formelement {
+    margin-bottom: 16px;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow > .formlabel {
+    text-align: left;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow.lefttext.smalltext {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-left: 24px;
+    line-height: 1.5;
+}
+
+form[action^="./PayoutDetails.asp"] .formsection:last-child {
+    margin-top: 0;
+}
+
+form[action^="./PayoutDetails.asp"] .nowrapflex > .labelelement {
+    text-align: right;
+}
+
+form[action^="./PayoutDetails.asp"] .nowrapflex > .valueelement > .amountholder {
+    width: auto !important;
+}
+
+form[action^="./PayoutDetails.asp"] .nowrapflex > .valueelement > span[title='24 hours'] {
+    text-align: left !important;
+}
+
+form[action^="./PayoutDetails.asp"] .nowrapflex > .valueelement {
+    color: var(--black-text) !important;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow,
+form[action^="./PayoutRequest.asp"] .formrow {
+margin-bottom: 0;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow > label {
+    text-align: left;
+    color: var(--dark-gray);
+}
+
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea {
+    border-color: var(--gray);
+}
+
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea:hover {
+    border-color: rgba(0, 0, 0, 0.45) !important;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow:nth-last-child(2) textarea:focus {
+    border-color: rgba(0, 0, 0, 0.45) !important;
+}
+
+form[action^="./PayoutDetails.asp"] .formrow > label[for=Comments]{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+form[action^="./PayoutDetails.asp"] .formheader {
+display: none;
+}
+form[action^="./PayoutDetails.asp"] span[title='24 hours'] {
+font-size: 14px;
+    width: 160px;
+    display: inline-block;
+    text-align: right;
+}
+form[action^="./PayoutDetails.asp"] .formrow.centertext {
+display: none;
+}
+form[action^="./PayoutDetails.asp"] .formelement.fineprint {
+display: none;
+}
+
+/* SPINNER */
+.spinner {
+    width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+    position: fixed;
+background-color: #ffffffb0;
+animation: none;
+margin: 0;
+transform: none;
+border: none;
+z-index: 101;
+}
+.spinner:before {
+content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: -35px 0 0 -35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border-top: 8px solid var(--coral);
+    border-right: 8px solid var(--coral-transparent);
+    border-bottom: 8px solid var(--coral-transparent);
+    border-left: 8px solid var(--coral-transparent);
+    box-sizing: content-box;
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/* back button */
+#nav-backbtn {
+width: 80px !important;
+}
+#nav-backbtn .menubutton {
+padding-right: 4px;
+background: none;
+color: var(--coral);
+border: none;
+padding-top: 9px;
+font-weight: bold;
+height: 33px;
+content: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23979797' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M8 1L1 8l7 7M1 8h14'/%3E%3C/g%3E%3Cpath fill='%23333' d='M3.414 7H15a1 1 0 0 1 0 2H3.414l5.293 5.293a1 1 0 0 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 1 1 1.414 1.414L3.414 7z'/%3E%3C/g%3E%3C/svg%3E");
+}
+#nav-backbtn .menubutton:after {
+/* content: 'Back'; */
+}
+#nav-backbtn .menubutton i:before {
+content: '';
+}
+
+/*select dropdown*/
+input.sliderbutton {
+color: transparent;
+}
+input.sliderbutton,
+select {
+background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='6px' viewBox='0 0 12 6' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3EPath 12%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0.8'%3E%3Cg id='icons/dropdown/normal/normal-normal' transform='translate(-2.000000, -5.000000)' fill='%23000000'%3E%3Cpath d='M13.1636636,5.13002996 C13.3679924,4.9442765 13.6842166,4.95933479 13.86997,5.1636636 C14.0557235,5.36799241 14.0406652,5.68421657 13.8363364,5.86997004 L8.3363364,10.86997 C8.14562578,11.0433433 7.85437422,11.0433433 7.6636636,10.86997 L2.1636636,5.86997004 C1.95933479,5.68421657 1.9442765,5.36799241 2.13002996,5.1636636 C2.31578343,4.95933479 2.63200759,4.9442765 2.8363364,5.13002996 L7.99999647,9.8242696 L13.1636636,5.13002996 Z' id='Path-12'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+input.sliderbutton:hover {
+background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='6px' viewBox='0 0 12 6' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3EPath 12%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='icons/dropdown/normal/normal-normal' transform='translate(-2.000000, -5.000000)' fill='%23FF444F'%3E%3Cpath d='M13.1636636,5.13002996 C13.3679924,4.9442765 13.6842166,4.95933479 13.86997,5.1636636 C14.0557235,5.36799241 14.0406652,5.68421657 13.8363364,5.86997004 L8.3363364,10.86997 C8.14562578,11.0433433 7.85437422,11.0433433 7.6636636,10.86997 L2.1636636,5.86997004 C1.95933479,5.68421657 1.9442765,5.36799241 2.13002996,5.1636636 C2.31578343,4.95933479 2.63200759,4.9442765 2.8363364,5.13002996 L7.99999647,9.8242696 L13.1636636,5.13002996 Z' id='Path-12'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+input.sliderbutton, input.sliderbutton:hover {
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* bank wire deposit table */
+.formsection table {
+font-size: 12px;
+margin-bottom: 24px;
+}
+.formsection table .righttext {
+margin: 0 10px;
+    text-align: right;
+    padding-right: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--dark-gray);
+    width: 48%;
+}
+.formsection table td {
+height: 20px;
+}
+form[action="/cashier/C_Deposit.asp"] .formrow.lefttext {
+font-size: 12px;
+}
+
+/* payout review table */
+form[action='./PayoutReview.asp'] .formheader {
+display: none;
+}
+#payoutbanner #payoutfiltertexttitle {
+display: none;
+}
+#payoutbanner {
+padding: 0;
+margin: 16px 0 24px;
+}
+#payoutbanner .bannertexttitle,
+#payoutbanner .bannertexttitle + div {
+padding-left: 8px;
+}
+
+
+.formheader.title {
+margin-bottom: 32px;
+}
+.successContainer {
+height: 40px;
+width: 40px;
+}
+.successContainer ~ .formrow .simplebutton {
+margin-top: 24px;
+}
+.txnSuccess {
+height: 40px;
+width: 40px;
+margin-top: 0;
+}
+
+/*tooltip / helpbox*/
+div[role=tooltip] {
+pointer-events: none;
+}
+
+/*menubutton / loader*/
+#nav-backbtn .menubutton > .fa-spin {
+    animation: none !important;
+}
+#nav-backbtn .menubutton > .fa-spinner:before {
+  content: "\f053" !important;
+}
+
+/* help hyperlink */
+div.mobilehidden > a:hover {
+    text-decoration: none !important;
+}
+th.valignbottom.aligncenter > a:hover {
+    text-decoration: none !important;
+}
+
+/*remove lastpass icon*/
+img#__lpform_cardnumber_icon {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+/* ui-widget */
+.ui-widget-content {
+    color: var(--black-text);
+    background: var(--white);
+    border-radius: 4px !important;
+    border: 1px solid var(--gray);
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid var(--gray);
+}
+
+.ui-widget-header {
+    background: var(--white);
+    border-radius: 4px !important;
+    border: 0;
+}
+
+.ui-dialog-title {
+    color: transparent;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background: var(--white);
+    border: 0;
+}
+
+.ui-dialog-titlebar > .ui-button > span.ui-icon-closethick {
+    background-image: none;
+    display: block;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.ui-dialog .ui-dialog-titlebar-close:after {
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+
+.ui-dialog .ui-dialog-titlebar-close:after, .ui-dialog .ui-dialog-titlebar-close:before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 1px;
+  width: inherit;
+  background: var(--black-text);
+  left: 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border: 0;
+    margin-top: 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    background: var(--coral);
+    border-color: var(--coral);
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover {
+    background: var(--coral-hover);
+    border-color: var(--coral-hover);
+}
+
+/*checkbox*/
+.checkboxarea {
+    background: transparent;
+}
+
+/*transaction review table head*/
+#txnreviewtable th {
+    font-size: 12px;
+}
+
+/*deriv-app modal width for payment methods*/
+@media only screen and (max-width: 620px) {
+div.paymentmethodarea:last-child {
+margin-right: unset !important;
+}
+}
+
+/*readonly inputs override*/
+input[readonly], select[readonly], textarea[readonly] {
+    background: transparent !important;
+}
+
+/*formlabels*/
+@media (min-width: 501px) {
+    .formrow .formlabel, .formsection label {
+        width: 44%;
+    }
+}
+
+.fineprint {
+    margin-left: 1em;
+}
+
+/* remove redundant buttons on 'Transaction was not successful' screen */
+.warningarea ~ .freetextarea.lefttext.navlink a.simplebutton[href='javascript:history.back();'],
+.warningarea ~ .freetextarea.lefttext.navlink a.simplebutton[href^='Deposits.asp'],
+.warningarea ~ .freetextarea.lefttext.navlink a.simplebutton[href^='dynaHelp.asp'] {
+    display: none;
+}
+/* remove alternative deposit methods as well */
+.warningarea ~ #depositoptions .paymentmethodarea.altoptions {
+    display: none;
+}
+/* restyle news marquee */
+#marquee {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16);
+    border: 0;
+    background: white;
+    border-radius: 4px;
+    margin: 8px 10px;
+}
+.marquee-showing {
+	font-weight: bold;
+	color: #333 !important;
+}

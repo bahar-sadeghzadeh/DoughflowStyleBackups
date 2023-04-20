@@ -1479,12 +1479,12 @@ form[action^="./PayoutDetails.asp"] .payout-limit {
 Make CCPayout only available to MasterCard
 Requires javascript that sets the  #cardtype value to 'MasterCard'
 */
-/*.CCPayout {
+.CCPayout {
     background-image: url(../../C_Common/images/processors/MasterCard.svg);
 }
 html[data-action="PAYOUTREQUEST.ASP"] form:has(#PaymentMethod[value="CCPayout"]) #recentcardsUL li[data-cardtype="VISA"],
 html[data-action="PAYOUTREQUEST.ASP"] select#cardtype option:not([value="MasterCard"]),
 html[data-action="PAYOUTREQUEST.ASP"]  .pmimagelisting .VISA{
     display: none;
-}*/
+}
 /* end of CCPayout changes */
