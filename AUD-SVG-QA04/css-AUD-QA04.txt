@@ -832,7 +832,8 @@ ul.marquee:hover li {
 .navbar,
 .formsection,
 .paymentmethodarea {
-  background-color: unset;
+  /*background-color: unset;*/
+  background-color: var(--custom-body-bg);
   backdrop-filter: unset;
 }
 
