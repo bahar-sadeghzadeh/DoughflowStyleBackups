@@ -192,7 +192,8 @@ Funds will appear in your account after a min of 24 hours from date of request.<
 	
 	<resourceItem id="ccPreAuthDeclinedText"><![CDATA[Please note, multiple attempts have been made to process your transaction.<br></br>Unfortunately, these attempts have been unsuccessful and your payment has not been processed.<p>{1}<p>- Binary.com]]></resourceItem>
 	
-	<resourceItem id="ccPreAuthBIN528497"><![CDATA[Unfortunately, <b>Capitec Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a direct bank transfer from your <b>Capitec Bank</b> account via <b>ZingPay</b>! Click the button below.<p><a class="paymentbutton" href="EFTPay_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=ZingPay"><span class="ZingPay spritepp"></span></a>]]></resourceItem>
+	<resourceItem id="ccPreAuthBIN528497"><![CDATA[Unfortunately, <b>Capitec Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a direct bank transfer from your <b>Capitec Bank</b> account via <b>Ozow</b>! Click the button below.<p><a class="paymentbutton" href="PGTEW_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PaymentMethod=Ozow"><span class="Ozow spritepp"></span></a>]]></resourceItem>
+	
 	<resourceItem id="ccPreAuthBIN471396"><![CDATA[Unfortunately, <b>First National Bank of Botswana</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Skrill</b>! Click the button below.<p><a class="paymentbutton" href="Skrill_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=Skrill"><span class="Skrill spritepp"></span></a>]]></resourceItem>
 	<resourceItem id="ccPreAuthBIN481783"><![CDATA[Unfortunately, <b>First National Bank of Botswana</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Skrill</b>! Click the button below.<p><a class="paymentbutton" href="Skrill_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=Skrill"><span class="Skrill spritepp"></span></a>]]></resourceItem>
 	<resourceItem id="ccPreAuthBIN481784"><![CDATA[Unfortunately, <b>First National Bank of Botswana</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Skrill</b>! Click the button below.<p><a class="paymentbutton" href="Skrill_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=Skrill"><span class="Skrill spritepp"></span></a>]]></resourceItem>
@@ -233,6 +234,6 @@ Funds will appear in your account after a min of 24 hours from date of request.<
 	<resourceItem id="ccPreAuthBIN519899"><![CDATA[Unfortunately, <b>Stanbic Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>OnlineNaira</b>! Click the button below.<p><a class="paymentbutton" href="OnlineNairaAPM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PaymentMethod=OnlineNaira"><span class="OnlineNaira spritepp"></span></a>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthBIN559432"><![CDATA[Unfortunately, <b>Stanbic Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>OnlineNaira</b>! Click the button below.<p><a class="paymentbutton" href="OnlineNairaAPM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PaymentMethod=OnlineNaira"><span class="OnlineNaira spritepp"></span></a>]]></resourceItem>
-	
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 	
 </resources>
