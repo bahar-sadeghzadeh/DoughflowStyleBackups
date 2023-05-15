@@ -1,7 +1,7 @@
 <resources>
 <resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Withdrawal limit:]]></resourceItem>
-	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
+	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 	
 	<resourceItem id="PrzelewyCustomDepositText"><![CDATA[<center>You can only use bank accounts and e-wallets <b>registered under your own name.</b></center>Using a payment method that is not yours is strictly prohibited. If you do so, your Deriv account will be blocked.]]></resourceItem>
 	<resourceItem id="GiropayCustomDepositText"><![CDATA[<center>You can only use bank accounts and e-wallets <b>registered under your own name.</b></center>Using a payment method that is not yours is strictly prohibited. If you do so, your Deriv account will be blocked.]]></resourceItem>
@@ -162,5 +162,6 @@ Funds will appear in your account after a min of 24 hours from date of request.]
 <resourceItem id="iDEALLongText"><![CDATA[Make instant deposits using your Skrill account.<div class="deposit-limit">Deposit: Instant | Withdrawal: N/A | Deposit limit: 10-10000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthDeclinedText"><![CDATA[<strong>Please note, multiple attempts have been made to process your transaction.<br></br>Unfortunately, these attempts have been unsuccessful and your payment has not been processed.<br></br>Please utilise an alternative payment method and try again.<br></br>- Deriv.com]]></resourceItem>
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 
 </resources>

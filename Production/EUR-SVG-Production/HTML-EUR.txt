@@ -1,7 +1,7 @@
 <resources>
 	<resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Deposit limit:]]></resourceItem>
-	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
+	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 		<resourceItem id="PIXCustomDepositText"><![CDATA[Please use your own bank accounts, cards, or wallets, and do not share them with anyone.<br></br>If you do, your Deriv.com account will be blocked. <br></br> Make sure your zip code is correct on your account details before proceeding.]]></resourceItem>
 <resourceItem id="PIXPayoutDescription"><![CDATA[Make easy withdrawals into your bank account.<div class="payout-limit">Withdrawal: 1 working day</div>]]></resourceItem>
 <resourceItem id="PIXLongText"><![CDATA[Make fast deposits using PIX, Brazilian banks’ most popular payment solution.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
@@ -159,5 +159,6 @@
 	<resourceItem id="ccPreAuthBIN550209"><![CDATA[Infelizmente depósitos via cartão de crédito emitidos pelo Banco <b>NU PAGAMENTOS SA</b> não podem ser processados na Deriv. <p>Recomendamos que você proceda com seu depósito via <b>PIX</b>! Clique no botão abaixo para conferir.<p><a class="paymentbutton" href="PayLivreAPM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PaymentMethod=PIX"><span class="PIX spritepp"></span></a>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthBIN418745"><![CDATA[Unfortunately, <b>Access Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Perfect Money</b>! Click the button below.<p><a class="paymentbutton" href="PerfectM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=PerfectM"><span class="PerfectM spritepp"></span></a>]]></resourceItem>
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 	
 </resources>

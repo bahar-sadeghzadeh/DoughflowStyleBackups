@@ -1,8 +1,8 @@
 <resources>
 	
 	<resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Withdrawal limit:]]></resourceItem>
-	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
+	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 		
 <resourceItem id="PayRTransferCustomDepositText"><![CDATA[You can only use bank accounts and e-wallets registered under your own name. Using a payment method that is not yours is strictly prohibited. If you do so, your Deriv.com account will be blocked.]]></resourceItem>
 	<resourceItem id="DragonTechAPMCustomDepositText"><![CDATA[You can only use bank accounts and e-wallets registered under your own name. Using a payment method that is not yours is strictly prohibited. If you do so, your Deriv.com account will be blocked.]]></resourceItem>
@@ -150,5 +150,6 @@
 <resourceItem id="PIXLongText"><![CDATA[Make fast deposits using PIX, Brazilian banks’ most popular payment solution.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 10-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthBIN484795"><![CDATA[Unfortunately, <b>Tyme Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Skrill</b>! Click the button below.<p><a class="paymentbutton" href="Skrill_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=Skrill"><span class="Skrill spritepp"></span></a>]]></resourceItem>
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 	
 </resources>

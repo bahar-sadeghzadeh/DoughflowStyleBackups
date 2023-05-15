@@ -1,7 +1,7 @@
 <resources>
 	<resourceItem id="res_amountLabel"><![CDATA[0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Withdrawal limit:]]></resourceItem>
-	<resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem>
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
+	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 	
 	<resourceItem id="D24BankDepositLabel">Manual Bank Deposit</resourceItem>
 	<resourceItem id="D24BankTransferLabel">Online Bank Transfer</resourceItem>
@@ -176,4 +176,6 @@
 <resourceItem id="AstroPayLongText"><![CDATA[Make instant e-wallet deposits.<div class="deposit-limit">Deposit: Instant | Withdrawal: 1 working day | Deposit limit: 5-1000 %_FrontEndBaseCurrency_%</div>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthDeclinedText"><![CDATA[<strong>Please note, multiple attempts have been made to process your transaction.<br></br>Unfortunately, these attempts have been unsuccessful and your payment has not been processed.<br></br>Please utilise an alternative payment method and try again.<br></br>- Deriv.com]]></resourceItem>
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
+	
 </resources>

@@ -8,7 +8,7 @@
 	<resourceItem id="customerBlockedByProfile"><![CDATA[Your account is restricted from accessing this part of the cashier. For assistance, please contact <a href="https://deriv.com/?is_livechat_open=true" style="color: #2707d6">Customer Service</a>.]]></resourceItem>
 	
 	<resourceItem id="res_amountLabel"><![CDATA[ 0.00 %_FrontEndBaseCurrency_%]]></resourceItem>
-	<!--resourceItem id="res_minimumAbbreviatedText"><![CDATA[Deposit limit:]]></resourceItem-->
+	<resourceItem id="res_minimumAbbreviatedText"><![CDATA[Min&nbsp&nbsp&nbsp]]></resourceItem>
 	<!--resourceItem id="res_maximumAbbreviatedText"><![CDATA[&nbsp;%_FrontEndBaseCurrency_%]]></resourceItem-->
 	<resourceItem id="SkrillPayoutDescription"><![CDATA[Funds will appear in your account after a min of 24 hours from date of request.]]></resourceItem>
 	
@@ -253,6 +253,6 @@ Funds will appear in your account after a min of 24 hours from date of request.<
 	<resourceItem id="ccPreAuthBIN519899"><![CDATA[Unfortunately, <b>Stanbic Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Perfect Money</b>! Click the button below.<p><a class="paymentbutton" href="PerfectM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=PerfectM"><span class="PerfectM spritepp"></span></a>]]></resourceItem>
 	
 	<resourceItem id="ccPreAuthBIN559432"><![CDATA[Unfortunately, <b>Stanbic Bank</b> does not support deposits via credit card into Deriv.<p>As an alternative you can make a deposit via <b>Perfect Money</b>! Click the button below.<p><a class="paymentbutton" href="PerfectM_Deposit.asp?FrontEnd=%_FrontEnd_%&amp;PIN=%_PIN_%&amp;PP=PerfectM"><span class="PerfectM spritepp"></span></a>]]></resourceItem>
-
+	<resourceItem id="res_correctionsRequiredTitle"><![CDATA[Corrections required]]></resourceItem>
 		
 </resources>
