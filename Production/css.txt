@@ -1501,7 +1501,7 @@ display: none;
 	display: none;
 }
 
-.formsection .paymentmethodarea {
+.formsection, .paymentmethodarea {
 	border: 0px;
 }
 
